@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="full-width">Full Width</div>
+    <div class="one-third">1/3</div>
+    <div class="one-third">1/3</div>
+    <div class="one-third">1/3</div>
+    <div class="half-width">1/2</div>
+    <div class="half-width">1/2</div>
+    <div class="one-fourth">1/4</div>
+    <div class="one-fourth">1/4</div>
+    <div class="one-fourth">1/4</div>
+    <div class="one-fourth">1/4</div>
+</div>
+
+<style>
+
+    /* Parent container */
+.container {
+    width: 800px; /* Initial width */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between items */
+}
+
+/* Full width element */
+.full-width {
+    flex: 1 1 100%;
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* One-third width element */
+.one-third {
+    flex: 1 1 calc((100% / 3) - 10px); /* 1/3 width minus gaps */
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Half width element */
+.half-width {
+    flex: 1 1 calc(50% - 7.5px); /* 1/2 width minus gaps */
+    background-color: #bbb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* One-fourth width element */
+.one-fourth {
+    flex: 1 1 calc(25% - 11.25px); /* 1/4 width minus gaps */
+    background-color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+</style>
