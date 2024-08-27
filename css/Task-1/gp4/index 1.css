@@ -1,0 +1,18 @@
+
+.titlee{
+    color: red;
+}
+
+
+ .title {
+    color: blue;
+}
+
+
+p,.title + .title {
+    color: green;
+}
+.text{
+   
+    color: green;
+}
