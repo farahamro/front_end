@@ -1,0 +1,42 @@
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; }
+
+.shape {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: #d3d3d3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+
+.shape-1 {
+    border-width: 5px;
+    border: 10px solid black;
+    border: 5px solid red;
+}
+
+
+.shape-2 {
+    border-width: 5px;
+    border-color: blue green; 
+    border-style: solid solid solid solid;
+}
+
+
+.shape-3 {
+    border-width: 5px;
+    border-color: red yellow green blue;
+    border-style: dashed dashed dashed dashed; 
+}

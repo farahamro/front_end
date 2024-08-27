@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.element {
+    width: 400px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.element-1 {
+    background-color:lightgray;
+    border-left: 10px solid hotpink; 
+    color: black;
+}
+
+
+.element-2 {
+    visibility: hidden;
+}
+
+
+.element-3 {
+    background-color:lightgrey;
+    border-left: 10px solid green; 
+    color: black;
+}
