@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.form-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #444;
+    background-color: #e6e6e6;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid red;
+    border-right: 5px solid teal;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-input::placeholder {
+    color: #999;
+}
+
+.custom-input:focus {
+    border-bottom: 5px solid red;
+    border-right: 5px solid teal;
+    color: black;
+}
+
+.custom-input:focus::placeholder {
+    color: transparent;
+}
+
+.custom-input:focus {
+    caret-color: red;
+}
