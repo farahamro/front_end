@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, red, blue, green,orange, purple) 1;
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.highlight {
+    color: red;
+}
