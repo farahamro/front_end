@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+}
+.class{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;  
+}
+
+.element {
+    background-color: #557a8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
